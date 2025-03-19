@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Music Festival Registration
+        </title>
+        <style>
+            ol{
+            list-style-type: lower-roman;
+        }
+        </style>
+    </head>
+    <body>
+        <h1 display = "inline">Music Festival Registration</h1>
+        <h4 display = "inline">Join the UltimateMusic Experience!</h4>
+        <h2>Festival Schedule</h2>
+        <h3>Schedule List</h3>
+        <ol>
+            <li>Friday, 6:00 PM - Doors Open</li>
+            <li>Friday, 7:00 PM - Performer 1 (Rock Band)</li>
+            <li>Saturday, 12:00 PM - Performer 2 (Pop Singer)</li>
+            <li>Saturday, 3:00 PM - Performer 3 (DJ Set)</li>
+            <li>Sunday, 2:00 PM - Closing Ceremony</li>
+        </ol>
+        <h3>Festival Vibes</h3>
+        <img src="party1.jpg" alt="music festival" width="600" height="450" title="Music Raving at the Music Festival">
+        <h3>Featured Performers</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Genre</th>
+                    <th>Social Media</th>
+                </tr>
+                <tr>
+                    <td>
+                        Performer 1
+                    </td>
+                    <td>Rock</td>
+                    <td>Twitter | Instagram</td>
+                </tr>
+                <tr>
+                    <td>Performer 2</td>
+                    <td>Pop</td>
+                    <td>Facebook | Youtube</td>
+                </tr>
+                <tr>
+                    <td>Performer 3</td>
+                    <td>Electronic</td>
+                    <td>SoundCloud | Tiktok</td>
+                </tr>
+            </thead>
+        </table>
+        <h3>Register Now!</h3>
+        <form action="" method="get">
+            <p>Name:
+                <input type="text" name="name" size="15" maxlength="30">
+            </p>
+            <p>email:
+                <input type="email" name="email" size="15" maxlength="30">
+            </p>
+            <p>
+                Password:
+                <input type="password" name="password" size="15" maxlength="30">
+            </p>
+            <p>
+                Date of Birth:
+                <input type="date" name="dob" size="10">
+            </p>
+            <p>Music Preferences:
+                <select name="Preferences" id="">
+                    <option value="Rock">Rock</option>
+                    <option value="Electronic">Electronic</option>
+                    <option value="Metallic">Metallic</option>
+                </select>
+            </p>
+            <p>
+                Ticket type
+                <input type="radio" name="online">online
+                <input type="radio" name="physical">physical
+            </p>
+        </form>
+    </body>
+</htm>
